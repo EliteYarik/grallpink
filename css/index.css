@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+}
+
+.headcont{
+    width: 1280px;
+    height: 590px;
+    margin: auto;
+    background-image: url(../images/pinkflavour.png);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    padding-right: 175px;
+    padding-left: 165px;
+    background-color: rgba(255, 255, 255, 0.9);
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .headnavig{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: segoeregular;
+    color: rgb(140, 140, 140);
+}
+
+.header .headnavig li{
+    margin-right: 30px;
+}
+
+.navigcont{
+    display: flex;
+}
+
+.contactbut{
+    width: 87px;
+    height: 28px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(222, 109, 110);
+    font-family: segoeregular;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactbut img{
+    margin-right: 7px;
+}
+
+.txtheadcont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 85px;
+}
+
+.txtheadcont img{
+    width: 165px;
+    height: 155px;
+}
+
+.txtheadcont span:nth-child(2){
+    color: white;
+    font-family: groteskbold;
+    font-size: 70px;
+}
+
+.txtheadcont span:nth-child(3){
+    color: white;
+    font-family: segoeregular;
+    font-size: 20px;
+}
+
+/* ----------------------------------------------- */
+.secondcont{
+    width: 100%;
+    height: 470px;
+    margin: auto;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtcont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+
+    margin-bottom: 100px;
+}
+
+.txtcont span:nth-child(1){
+    font-family: segoeregular;
+    font-size: 40px;
+}
+
+.txtcont span:nth-child(2){
+    font-family: segoeregular;
+    font-size: 20px;
+}
+
+.txtcont span:nth-child(3){
+    font-family: segoeregular;
+    font-size: 20px;
+}
+
+.circcont{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.circle img{
+    margin-bottom: 15px;
+}
+
+.circle{
+    width: 180px;
+    height: 180px;
+    margin-right: 80px;
+    border-radius: 50%;
+    font-family: segoeregular;
+    color: white;
+    font-size: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle:nth-child(1){
+    background-color: rgb(78, 185, 244);
+}
+
+.circle:nth-child(2){
+    background-color: rgb(111, 193, 37);
+}
+
+.circle:nth-child(3){
+    background-color: rgb(255, 86, 73);
+}
+
+.circle:last-child{
+    margin: 0;
+
+    background-color: rgb(288, 143, 35);
+}
+/* -------------------------------------------------- */
+.thirdcont{
+    width: 100%;
+    height: 675px;
+    margin: auto;
+}
+
+.statcont{
+    width: 100%;
+    padding-left: 195px;
+    margin-bottom: 60px;
+    display: flex;
+}
+
+.statcont:first-child{
+    padding-top: 45px;
+}
+
+.statimg{
+    margin-right: 25px;
+}
+
+.stattxt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: segoeregular;
+}
+
+.statTitle{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+/* -------------------------footer-------------------------------------- */
+.footer{
+    width: 100%;
+    height: 270px;
+    background-image: url(../images/footerimage.png);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerNavig ul li{
+    list-style: none;
+    color: grey;
+    margin-bottom: 5px;
+    font-family: segoeregular;
+    cursor: pointer;
+}
+
+.footerNavig ul li:last-child{
+    margin-right: 50px;
+}
+
+.footerNavig{
+    padding-top: 40px;
+    margin-left: 100px;
+}
+
+.footerNavig span{
+    color: grey;
+    font-family: segoeregular;
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footerNavig ul li:hover{
+    color: white;
+}
+
+.footerlogos .logos{
+    margin-bottom: 15px;
+}
+
+.footerlogos span{
+    color: grey;
+    font-family: segoeregular;
+}
+/* ---------------------------fonts------------------------------- */
+@font-face {
+    font-family: segoeregular;
+    src: url(../fonts/Segoe\ UI\ Regular.ttf);
+}
+
+@font-face {
+    font-family: groteskbold;
+    src: url(../fonts/Alte-Haas-Grotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: universlight;
+    src: url(../fonts/Univers\ LT\ 45\ Light.ttf);
+}
